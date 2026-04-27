@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" class="geologica-font">
+
+<head>
+  
+  <meta charset="UTF-8">
+  <title>Rigatoni Recipes</title>
+  <link rel=" stylesheet" href="../header.css">
+  <link rel=" stylesheet" href="../background.css">
+  <link rel=" stylesheet" href="../footer.css">
+  <link rel=" stylesheet" href="../wrapper.css">
+
+  <link rel="icon" type="image/png" href="\assets\icons\favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Geologica:wght,CRSV@100..900,0&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <style>
+   .container {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+     @media (max-width: 768px) {
+    .container{
+      display: grid; 
+      grid-template-columns: 1fr; 
+      gap: 0.5rem;
+      margin-top: 0.2rem;
+    }
+  }
+
+    .lexicon-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0.5rem;
+        background-color: #F4EDE6;;
+        margin-top: 8px;
+        border-radius: 10px;
+        padding: 10px;
+       
+       
+    }
+
+    .card-right {
+      background-color: rgb(213, 214, 208);
+      border-radius: 7px;
+      min-width: 100px;
+      padding-left: 1rem;
+    }
+
+    .card-left img{
+        border-radius: 7px;
+        width: 100%;
+        min-width: 100px;
+    }
+
+    .card-body {
+      grid-column: span 2;
+      padding-left: 0.8rem;
+    }
+
+    .card-right h4 {
+      color: black;
+    }
+  </style>
+
+</head>
+
+<div class="wrapper">
+<!-- NAVBAR & HEADER -->
+ <div class="header"> 
+  <img src="\assets\icons\logo.svg"></img>
+  <h4>Das Kochbuch für unsere Rezepte</h4>
+</div>
+
+<div class="navbar"> 
+  <a href="..\index.html"><img src="\assets\icons\home.svg"></img></a>
+  <a href="page_recipe.html"><img src="\assets\icons\recipe.svg"></img></a>
+  <a href="page_lexicon.html"><img src="\assets\icons\lexicon.svg"></img></a>
+  <a href="page_ideas.html"><img src="\assets\icons\ideas.svg"></img></a>
+</div>
+
+
+<div class = "container">
+
+  <div class="lexicon-card">
+    <div class="card-left">
+      <img src="../assets/images/wip.jpg" >
+    </div>
+    <div class="card-right">
+     <h2>Öle</h2>
+     <p><b>Gesättigte Fettsäuren:</b> Ohne Doppelbindung</p>
+    <p><b>Ungesättigte Fettsäuren:</b> Mindestens eine Doppelbindung</p>
+    </div>
+    <div class="card-body">
+      
+      <p><b>Natives Öl Extra:</b> bis 180° C benutzen</p>
+      <p><b>Natives Öl Kaltgepresst:</b> nur kalt benutzen</p>
+      <p><b>Raffiniertes Öl:</b> über 220°C - aber viele gesättigte Fettsäuren (ungesund)</p>
+      
+    </div>
+  </div>
+
+  <div class="lexicon-card">
+    <div class="card-left">
+      <img src="../assets/images/wip.jpg">
+    </div>
+    <div class="card-right">
+     <h2>Kohlenhydrate</h2>
+    </div>
+    <div class="card-body">
+      
+      <p><b>Natives Öl Extra:</b> bis 180° C benutzen</p>
+      <p><b>Natives Öl Kaltgepresst:</b> nur kalt benutzen</p>
+      <p><b>Raffiniertes Öl:</b> über 220°C - aber viele gesättigte Fettsäuren (ungesund)</p>
+      
+    </div>
+  </div>
+
+  
+
+
+</div>
