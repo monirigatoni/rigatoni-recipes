@@ -3,10 +3,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #F4EDE6;
-    margin-top: 8px;
-    padding-left: 50px;
+    margin-top: 1rem;
+    padding-left: 1rem;
     border-radius: 7px;
-    padding-bottom: 20px;
+    padding-bottom: 1rem;
     min-width: 445px;
     
 }
@@ -17,7 +17,9 @@
         justify-content: center;
         min-width: 200px;
         padding: 0.5rem;
+        padding-bottom: 1rem;
         margin: 0; 
+        margin-top: 1rem;
     }
 }
 
