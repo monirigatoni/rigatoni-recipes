@@ -15,6 +15,7 @@
     .recipe-container {
         display: flex;
         justify-content: center;
+        min-width: 200px;
     }
 }
 
