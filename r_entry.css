@@ -65,6 +65,14 @@
     margin: 4px;
 }
 
+.link {
+    display: inline-block;
+    background-color: #c2c1bf;
+    padding: 4px;
+    border-radius: 3px;
+    margin: 4px;
+}
+
 .bulletpoint {
     padding:4px;
 }
