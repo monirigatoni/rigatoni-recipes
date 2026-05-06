@@ -27,45 +27,31 @@
     .container{
       display: grid; 
       grid-template-columns: 1fr; 
-      gap: 0.5rem;
-      margin-top: 0.2rem;
     }
   }
 
     .lexicon-card {
         display: grid;
-        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        gap: 0.5rem;
-        background-color: #F4EDE6;;
-        margin-top: 8px;
-        border-radius: 10px;
-        padding: 10px;
-       
-       
+        margin-top: 1rem;  
+        border-radius: 7px; 
     }
 
-    .card-right {
+    .card-top {
       background-color: rgb(213, 214, 208);
-      border-radius: 7px;
-      min-width: 100px;
-      padding-left: 1rem;
+      padding: 1rem;
+      border-top-left-radius: 7px;
+      border-top-right-radius: 7px;
     }
 
-    .card-left img{
-        border-radius: 7px;
-        width: 100%;
-        min-width: 100px;
+    .card-body{
+      background-color: #F4EDE6;
+      padding: 1rem;
+      border-bottom-left-radius: 7px;
+      border-bottom-right-radius: 7px;
     }
 
-    .card-body {
-      grid-column: span 2;
-      padding-left: 0.8rem;
-    }
 
-    .card-right h4 {
-      color: black;
-    }
   </style>
 
 </head>
@@ -88,40 +74,28 @@
 <div class = "container">
 
   <div class="lexicon-card">
-    <div class="card-left">
-      <img src="../assets/images/wip.jpg" >
-    </div>
-    <div class="card-right">
+    <div class="card-top">
      <h2>Öle</h2>
-     <p><b>Gesättigte Fettsäuren:</b> Ohne Doppelbindung</p>
-    <p><b>Ungesättigte Fettsäuren:</b> Mindestens eine Doppelbindung</p>
+     <p><b>Gesättigte Fettsäuren:</b> Ohne Doppelbindung.</p>
+     <p><b>Ungesättigte Fettsäuren:</b> Mindestens eine Doppelbindung. Wie z.b. Omega-3-Fettsäuren (essentiell). </p>
     </div>
     <div class="card-body">
-      
       <p><b>Natives Öl Extra:</b> bis 180° C benutzen</p>
       <p><b>Natives Öl Kaltgepresst:</b> nur kalt benutzen</p>
       <p><b>Raffiniertes Öl:</b> über 220°C - aber viele gesättigte Fettsäuren (ungesund)</p>
-      
     </div>
   </div>
 
   <div class="lexicon-card">
-    <div class="card-left">
-      <img src="../assets/images/wip.jpg">
-    </div>
-    <div class="card-right">
-     <h2>Kohlenhydrate</h2>
+    <div class="card-top">
+     <h2>Zitronenabrieb</h2>
+     <p>Enthält den sekundärer Pflanzenstoff Narigin.
     </div>
     <div class="card-body">
-      
-      <p><b>Natives Öl Extra:</b> bis 180° C benutzen</p>
-      <p><b>Natives Öl Kaltgepresst:</b> nur kalt benutzen</p>
-      <p><b>Raffiniertes Öl:</b> über 220°C - aber viele gesättigte Fettsäuren (ungesund)</p>
-      
+      <p>Narigin befindet sich im Saft der Zitrone und vorallem unter der Haut - ist gut für die Immunabwehr. 
+      <p>Aber aufpassen! Abrieb sollte man nur bei Bio-Zitronen verwenden. Es reicht nicht, dass "Unbehandelt" drauf steht.</p> 
     </div>
   </div>
 
   
-
-
 </div>
