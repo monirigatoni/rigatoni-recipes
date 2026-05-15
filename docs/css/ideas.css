@@ -1,0 +1,78 @@
+
+    .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    background-color: #F4EDE6;
+    border-radius: 7px;
+    }
+
+    /* Das hier geht alles einfacher aber ich bin jetzt zu müde das zu fixen. */
+    .idea-card-katha{
+      height: auto; 
+      margin-bottom: 1rem;
+      padding-top: 110px;
+      box-sizing: border-box;
+      width: 320px;
+      height: 617px;
+      background-size: cover; 
+      border-radius: 3px;
+      background-image: url('../images/ideas_background_katha.png');
+      border: 1px solid grey;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+      .idea-card-anke{
+      height: auto; 
+      margin-bottom: 1rem;
+      padding-top: 110px;
+      box-sizing: border-box;
+      width: 320px;
+      height: 617px;
+      background-size: cover; 
+      border-radius: 3px;
+      background-image: url('../images/ideas_background_anke.png');
+      border: 1px solid grey;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .idea-card-moni{
+      height: auto; 
+      margin-bottom: 1rem;
+      padding-top: 110px;
+      box-sizing: border-box;
+      width: 320px;
+      height: 617px;
+      background-size: cover; 
+      border-radius: 3px;
+      background-image: url('../images/ideas_background_moni.png');
+      border: 1px solid grey;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+
+    
+    
+    .insta-link{
+     background-color: #5E733B;
+     padding: 10px; 
+     width: 200px;
+     border-radius: 7px;
+     text-align: center;
+     color: #F4EDE6;
+     }
+
+    
+     
