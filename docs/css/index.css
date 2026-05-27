@@ -24,19 +24,17 @@
 }
 
 
-.container-right {
-    padding: 2rem;
-    place-items: center;
-    text-align: center;
-}
-
 .container-right img {
-   
-    width: 100%;        /* fill available space */
-    max-width: 320px;    /* but don't get too big */
-    height: auto;
+    max-width: 300px;
 }
 
+.container-right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    align-items: center;
+}
 
 body{
     background-image: url(assets/images/pepper-bg.jpg);
